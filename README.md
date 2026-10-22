@@ -1,5 +1,7 @@
 # IBM HR Attrition Prediction — Machine Learning Project
 
+[Live Demo — Try the App](https://ibm-hr-attrition-ml-2ejmwtiag3ixvyabbvvw6v.streamlit.app/)
+
 ## Project Overview
 
 This project explores employee attrition prediction using the IBM HR Analytics Employee Attrition & Performance dataset.
