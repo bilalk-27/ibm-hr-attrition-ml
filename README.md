@@ -62,6 +62,8 @@ These results highlight the challenges of imbalanced classification and the trad
 
 ## Streamlit Application
 
+**Live application:** [HR Attrition Predictor](https://ibm-hr-attrition-ml-2ejmwtiag3ixvyabbvvw6v.streamlit.app/)
+
 The application allows users to:
 
 - Enter 14 characteristics of a fictional employee
@@ -70,6 +72,18 @@ The application allows users to:
 - Explore how different input values affect model predictions
 
 The estimated score should not be interpreted as a calibrated probability or a causal assessment.
+
+## Project Structure
+
+ibm-hr-attrition-ml/
+├── main.py                 # Model training and evaluation
+├── predict.py              # Prediction example
+├── app.py                  # Streamlit application
+├── models/
+│   └── random_forest_attrition.joblib
+├── requirements.txt
+├── kaggle_ibm_dataset_attriction.csv
+└── README.md
 
 ## Run Locally
 
